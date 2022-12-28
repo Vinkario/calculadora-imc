@@ -39,7 +39,7 @@
     font-weight: bold;
 }
 
-.step-one button{
+.button{
     padding: 10px;
     cursor: pointer;
     border-radius: 5px;
@@ -48,23 +48,69 @@
     color: #fff;
 }
 
-.step-one button:hover{
+.button:hover{
     background-color: purple;
     transition: all 300ms ease-in-out;
     
 }
 
 .step-two {
-    background-color: aqua;
     align-self: center;
     margin: 200px auto;
-    justify-content: center;
+    display: none;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     width: 400px;
-    height: 200px;
+    height: 400px;
     background-color: rgba(0, 0, 0, 0.5);
     align-items: center;
-    gap: 15px;
     border-radius: 10px;
+    padding: 20px;
+    gap: 10px;
+
+}
+
+.step-two h3{
+    color: #fff;
+    text-align: center;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #fff;
+    padding: 15px;
+}
+
+.step-two input{
+
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: none;
+    outline: 0;
+
+}
+
+.step-two label{
+    color: #fff;
+}
+
+.step-final{
+    align-self: center;
+    margin: 200px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 400px;
+    background-color: rgba(0, 0, 0, 0.5);
+    align-items: center;
+    border-radius: 10px;
+    padding: 20px;
+    gap: 10px;
+
+}
+
+.step-final h3, p{
+    color: #fff;
 
 }

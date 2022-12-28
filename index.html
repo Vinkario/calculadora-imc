@@ -9,10 +9,9 @@
 </head>
 <body>
         <div class="container">
-            <h1>Calculadora de IMC</h1>
         <div class="step-one">
             <p>Vamos iniciar o seu calculo</p>
-            <button class="button">Iniciar</button>
+            <button onclick="go(1,2)" class=  "button">Iniciar</button>
         </div>
 
         <div class="step-two">
@@ -22,21 +21,17 @@
         
             <label for="altura">Digite sua altura</label>
             <input type="number" placeholder="ex: 1.75" id="altura">
-            <button class="button">Calcular</button>
+            <button onclick="validate()" class="button">Calcular</button>
         </div>
 
         <div class="step-final">
             <h3>Resultado!</h3>
-            <p id="resultado">...</p>
+            <p id="resultado"></p>
             <div>
-                <button class="button">Calcular Novamente</button>
-                <button class="button">Finalizar</button>
+                <button onclick="go(3,2)" class="button">Calcular Novamente</button>
+                <button onclick="go(3,1)"  class="button">Finalizar</button>
             </div>
             
-
-        </div>
-
-
-        </div>
+            <script src="assets/js/script.js"></script>
 </body>
 </html>

@@ -19,7 +19,7 @@
 }
 
 .step-one{
-    display: none;
+    display: flex;
     align-self: center;
     margin: 200px auto;
     justify-content: center;
@@ -57,7 +57,7 @@
 .step-two {
     align-self: center;
     margin: 200px auto;
-    display: none;
+    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -113,4 +113,12 @@
 .step-final h3, p{
     color: #fff;
 
+}
+
+.step-two, .step-final{
+    display: none;
+}
+
+#result{
+    font-size: 24px;
 }
